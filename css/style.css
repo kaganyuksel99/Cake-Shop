@@ -96,8 +96,43 @@ header {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-header .logo {
+.cslogo {
+  height: 55px;
+}
+
+.about .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about .row .image {
+  flex: 1 1 40rem;
+}
+
+.about .row .image img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 40rem;
+  padding: 2rem 1rem;
+}
+
+.about .row .content h3 {
+  color: var(--red);
   font-size: 2.5rem;
+}
+
+.about .row .content p {
+  color: #aaa;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+
+header .logo {
+  font-size: 2rem;
   font-weight: bolder;
   color: #666;
 }
@@ -549,6 +584,17 @@ header .navbar a:hover {
 .box-bg:hover {
   transform: scale(1.1);
   z-index: 1;
+}
+
+.branchs {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.branch {
+  background-color: yellow;
+  margin: 30px;
 }
 
 /* media queries  */

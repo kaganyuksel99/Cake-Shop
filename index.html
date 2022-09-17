@@ -14,8 +14,23 @@
   <body>
     <!-- Header home start - 1 -->
     <header>
-      <a href="#" class="logo"><img src="img/logo.png" alt="" /></a>
-      <h1>Cake Shop</h1>
+      <img src="img/logo.png" alt="" class="cslogo" />
+      <a
+        href="#"
+        class="logo"
+        style="
+          position: absolute;
+          margin-left: 60px;
+          font-family: Segoe Print;
+          color: #270800ff;
+        "
+        ><i class="fas fa-food"></i>Cake Shop
+        <span class="logo" style="font-family: Segoe Print; color: #fbca96ff"
+          >Place</span
+        ></a
+      >
+
+      <div id="menu-bar" class="fas fa-bars"></div>
       <nav class="navbar">
         <a href="">Ana Sayfa</a>
         <a href="">Ürünlerin Hikayesi</a>
@@ -44,6 +59,34 @@
       </div>
     </section>
     <!-- Header home end - 2 -->
+    <section class="about" id="about">
+      <h1 class="heading">Hakkımızda</h1>
+      <div class="row">
+        <div class="image">
+          <img src="img/about.png" style="height: px; width: 500px" alt="" />
+        </div>
+        <div class="content">
+          <h3>Neden bizi tercih etmelisiniz?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat et
+            numquam mollitia fugit excepturi assumenda accusamus doloribus iure
+            magnam ea, explicabo reiciendis neque illo blanditiis veniam dolor
+            facere veritatis vitae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            blanditiis ipsam iusto odio omnis illo cum necessitatibus officiis,
+            iure laboriosam!
+          </p>
+          <a href="#service"
+            ><button class="btn">Daha Fazla Bilgi İçin</button></a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- About start -->
+
+    <!-- About end -->
 
     <!-- Product Detail start - 1 -->
     <section class="speciality" id="speciality">
@@ -375,7 +418,33 @@
     </section>
     <!-- Comments end -->
 
-    <!-- Eklenecekler => Galeri,Şubeler,İletişim, Sosyal medya hesapları, Hakkımızda -->
+    <!-- Branch start -->
+    <h1 class="heading">Şubelerimiz</h1>
+    <section class="branchs" id="branchs">
+      <div class="branch">
+        <h3>Saray</h3>
+        <img src="img/logo.png" alt="" />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam at,
+          veritatis placeat voluptates consectetur eveniet expedita fuga
+          temporibus aspernatur veniam soluta molestias excepturi quis provident
+          voluptatum aperiam. Esse, eaque iure?
+        </p>
+      </div>
+      <div class="branch">
+        <h3>Çorlu</h3>
+        <img src="img/logo.png" alt="" />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam at,
+          veritatis placeat voluptates consectetur eveniet expedita fuga
+          temporibus aspernatur veniam soluta molestias excepturi quis provident
+          voluptatum aperiam. Esse, eaque iure?
+        </p>
+      </div>
+    </section>
+    <!-- Branch end -->
+
+    <!-- Eklenecekler => ,Şubeler,İletişim, Sosyal medya hesapları, Hakkımızda -->
 
     <script src="js/script.js"></script>
   </body>
